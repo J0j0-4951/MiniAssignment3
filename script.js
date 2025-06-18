@@ -4,7 +4,7 @@ console.log(header);
 const btn = getElementById("Submit!");
 
 const textbox = document.getElementById("nameinput");
-const header = DocumentFragment.getElementById("h1");
+const header = document.getElementById("h1");
 let name ="";
 btn.addEventListener("click", () =>{
     event.preventDefault();
