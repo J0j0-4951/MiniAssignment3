@@ -1,15 +1,13 @@
-
-const header = document.querySelector("h1");
-console.log(header);
 const btn = getElementById("Submit!");
-
 const textbox = document.getElementById("nameinput");
 const header = document.getElementById("h1");
+
 let name ="";
-btn.addEventListener("click", () =>{
-    event.preventDefault();
-    name = textbox.value;
-header.textContent = "Welcoome, " + name + "!";
+btn.addEventListener("Submit!", () =>{
+     event.preventDefault();
+
+      name = textbox.value;
+header.textContent = "Welcome, " + name + "!";
 
 const blue = document.querySelectorAll("blueclass");
 console.log(blue);
