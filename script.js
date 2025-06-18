@@ -1,8 +1,9 @@
-const btn = getElementById("Submit!");
+const btn = document.getElementById("Submit!");
 const textbox = document.getElementById("nameinput");
 const header = document.getElementById("h1");
 
-let name ="";
+let name = "";
+
 btn.addEventListener("Submit!", () =>{
      event.preventDefault();
 
