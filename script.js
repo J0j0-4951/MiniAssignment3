@@ -10,6 +10,6 @@ btn.addEventListener("Submit!", () =>{
       name = textbox.value;
 header.textContent = "Welcome, " + name + "!";
 
-const blue = document.querySelectorAll("blueclass");
-console.log(blue);
+const purple = document.querySelectorAll("purpleclass");
+console.log(purple);
 });
